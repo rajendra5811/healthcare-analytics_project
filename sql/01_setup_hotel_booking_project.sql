@@ -161,15 +161,27 @@ USING (
         ) AS BOOKING_ID,
         HOTEL,
         IS_CANCELED,
-        TRY_TO_DATE(
-            CONCAT(
-                LPAD(TO_VARCHAR(ARRIVAL_DATE_DAY_OF_MONTH), 2, '0'),
-                '-',
-                ARRIVAL_DATE_MONTH,
-                '-',
-                TO_VARCHAR(ARRIVAL_DATE_YEAR)
+        COALESCE(
+            TRY_TO_DATE(
+                CONCAT(
+                    LPAD(TO_VARCHAR(ARRIVAL_DATE_DAY_OF_MONTH), 2, '0'),
+                    '-',
+                    ARRIVAL_DATE_MONTH,
+                    '-',
+                    TO_VARCHAR(ARRIVAL_DATE_YEAR)
+                ),
+                'DD-MONTH-YYYY'
             ),
-            'DD-MONTH-YYYY'
+            TRY_TO_DATE(
+                CONCAT(
+                    LPAD(TO_VARCHAR(ARRIVAL_DATE_DAY_OF_MONTH), 2, '0'),
+                    '-',
+                    ARRIVAL_DATE_MONTH,
+                    '-',
+                    TO_VARCHAR(ARRIVAL_DATE_YEAR)
+                ),
+                'DD-MON-YYYY'
+            )
         ) AS ARRIVAL_DATE,
         COALESCE(STAYS_IN_WEEKEND_NIGHTS, 0) + COALESCE(STAYS_IN_WEEK_NIGHTS, 0) AS NIGHTS_STAY,
         COALESCE(ADULTS, 0) + COALESCE(CHILDREN, 0) + COALESCE(BABIES, 0) AS GUEST_COUNT,
