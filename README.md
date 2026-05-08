@@ -24,3 +24,4 @@ Run scripts in order from a Snowflake worksheet or SnowSQL:
 2. `sql/02_smoke_test_queries.sql`
 
 > Update the stage URL and credentials placeholder values before using Snowpipe in a real environment.
+> `AUTO_INGEST` is intentionally set to `FALSE` in the baseline script; enable it and configure cloud notifications for production.
