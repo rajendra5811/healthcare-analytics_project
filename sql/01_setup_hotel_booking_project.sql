@@ -155,7 +155,11 @@ USING (
                 '|',
                 COALESCE(CUSTOMER_TYPE, ''),
                 '|',
-                COALESCE(TO_VARCHAR(INGESTED_AT), '')
+                COALESCE(TO_VARCHAR(RESERVATION_STATUS_DATE), ''),
+                '|',
+                COALESCE(TO_VARCHAR(LEAD_TIME), ''),
+                '|',
+                COALESCE(TO_VARCHAR(ADR), '')
             ),
             256
         ) AS BOOKING_ID,
@@ -191,6 +195,7 @@ USING (
         CUSTOMER_TYPE,
         CURRENT_TIMESTAMP() AS UPDATED_AT
     FROM HOTEL_BOOKING_DB.RAW.HOTEL_BOOKINGS_RAW_STREAM
+    -- RAW ingest is append-only from Snowpipe, so INSERT rows are expected in this baseline task.
     WHERE METADATA$ACTION = 'INSERT'
 ) S
 ON T.BOOKING_ID = S.BOOKING_ID
