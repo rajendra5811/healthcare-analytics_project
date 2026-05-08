@@ -1,0 +1,44 @@
+==================== 2026-05-08T09:57:08.259470Z | 019e0704-fdcb-7743-b07d-7187f63a2c70 ====================
+09:57:08.272550 [info ]: Installing dbt project and profile setup
+09:57:08.519527 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+09:57:08.614575 [info ]: Success Project created successfully!
+09:57:08.615623 [info ]: Info Project name: jaffle_shop
+09:57:08.636751 [info ]: Info Project directory: jaffle_shop
+09:57:08.670452 [info ]: Info Setting up your profile...
+09:57:08.682024 [info ]: Loading ~/.dbt/profiles.yml
+09:57:08.724382 [info ]: Info Creating new profile...
+09:57:13.352465 [info ]: No dbt_cloud.yml found - proceeding without cloud pre-population
+10:01:43.216621 [info ]: Success Profile written to C:\Users\lenovo\.dbt\profiles.yml
+10:01:43.230037 [info ]: Validating profile inputs, adapters, and connection
+
+10:01:43.233579 [info ]: dbt-fusion 2.0.0-preview.175
+10:01:43.256118 [info ]: Started loading project
+10:01:43.411883 [info ]: Loading ~/.dbt/profiles.yml
+10:01:43.451434 [info ]: Finished loading project [  0.20s]
+10:01:43.467758 [info ]: Started debugging
+10:01:43.469140 [info ]: Debugging profile: dev
+10:01:43.472001 [info ]: Debugging dbt version: 2.0.0-preview.175
+10:01:43.473660 [info ]: Debugging platform: windows x86_64 (windows)
+10:01:43.475488 [info ]: Debugging adapter type: snowflake (remote)
+10:01:43.604004 [info ]: Debugging dependencies:
+  git: OK
+10:01:43.612730 [info ]: Debugging connection:
+  "account": "FMRCBLM-DRC94900",
+  "user": "RAJ1111",
+  "database": "hospital_db",
+  "warehouse": "COMPUTE_WH",
+  "schema": "analytics",
+  "role": "ACCOUNTADMIN"
+10:01:48.526799 [debug]: Query executed on node unknown:
+select 1 as id
+10:01:48.540244 [info ]: Debugging connection test: OK
+10:01:48.544124 [info ]: Debugged All checks passed!
+10:01:48.547077 [info ]: Finished debugging [  5.08s]
+10:01:50.026535 [info ]: 
+==================== Execution Summary =====================
+Finished 'init' successfully for target 'dev' [4m 42s]
+{"data":{"log_version":3,"version":"=2.0.0-preview.175"},"info":{"category":"","code":"A001","extra":{},"invocation_id":"019e0723-4182-7ae2-a4b9-07eb5493e4da","level":"info","msg":"Running with dbt-fusion=2.0.0-preview.175","name":"MainReportVersion","pid":17700,"thread":"tokio-rt-worker","ts":"2026-05-08T10:30:11.779766Z"}}
+{"data":{"args":{"debug":"false","invocation_command":"C:\\Users\\lenovo\\.local\\bin\\dbt.exe license info --json --log-format json","log_format":"json","quiet":"false","write_json":"true"}},"info":{"category":"","code":"A002","extra":{},"invocation_id":"019e0723-4182-7ae2-a4b9-07eb5493e4da","level":"debug","msg":"running dbt-fusion with arguments {\"command\":\"license\",\"vars\":\"{}\",\"limit\":\"10\",\"debug\":false,\"log_format\":\"json\",\"quiet\":false,\"write_json\":true,\"write_catalog\":false}","name":"MainReportArgs","pid":17700,"thread":"tokio-rt-worker","ts":"2026-05-08T10:30:11.780359Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019e0723-4182-7ae2-a4b9-07eb5493e4da","level":"debug","msg":"No active cloud project configured, skipping remote license","name":"Generic","pid":17700,"thread":"tokio-rt-worker","ts":"2026-05-08T10:30:11.816740Z"}}
+{"data":{"columns":[],"is_inline":true,"node_name":"license_info","output_format":"json","preview":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","unique_id":"license.info"},"info":{"category":"","code":"Q041","extra":{},"invocation_id":"019e0723-4182-7ae2-a4b9-07eb5493e4da","level":"info","msg":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","name":"ShowNode","pid":17700,"thread":"tokio-rt-worker","ts":"2026-05-08T10:30:11.826808Z"}}
+{"data":{"completed_at":"2026-05-08T10:30:13.328491Z","elapsed":1.5580627918243408,"success":true},"info":{"category":"","code":"Q039","extra":{},"invocation_id":"019e0723-4182-7ae2-a4b9-07eb5493e4da","level":"info","msg":"\n==================== Execution Summary =====================\nFinished 'license' successfully [1.6s]","name":"CommandCompleted","pid":17700,"thread":"tokio-rt-worker","ts":"2026-05-08T10:30:13.335720Z"}}

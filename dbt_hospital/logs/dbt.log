@@ -1,0 +1,330 @@
+==================== 2026-05-08T10:32:01.024855Z | 019e0724-ecf4-7670-8b15-f141d60a5859 ====================
+10:32:01.027344 [info ]: dbt-fusion 2.0.0-preview.175
+10:32:01.040560 [info ]: Started loading project
+10:32:01.054268 [info ]: Finished loading project [  0.01s]
+10:32:01.063757 [error]: dbt1013: YAML error: mapping values are not allowed in this context at line 5 column 7
+  --> dbt_project.yml:5:7
+10:32:01.990847 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [965ms]
+==================== 2026-05-08T10:32:38.306285Z | 019e0725-7e9c-7fc0-8654-321be3de512f ====================
+10:32:38.306599 [info ]: dbt-fusion 2.0.0-preview.175
+10:32:38.308470 [info ]: Started loading project
+10:32:38.309525 [info ]: Finished loading project [  0.00s]
+10:32:38.310685 [error]: dbt1013: YAML error: mapping values are not allowed in this context at line 5 column 7
+  --> dbt_project.yml:5:7
+10:32:39.190493 [info ]: 
+==================== Execution Summary =====================
+Finished 'test' with 1 error [884ms]
+==================== 2026-05-08T10:36:47.921919Z | 019e0729-4d98-7191-b37e-3bebc42ccb50 ====================
+10:36:47.930969 [info ]: dbt-fusion 2.0.0-preview.175
+10:36:47.946018 [info ]: Started loading project
+10:36:47.967348 [info ]: Finished loading project [  0.02s]
+10:36:47.985300 [error]: dbt1013: YAML error: mapping values are not allowed in this context at line 5 column 7
+  --> dbt_project.yml:5:7
+10:36:49.232776 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [1.3s]
+==================== 2026-05-08T10:37:39.509989Z | 019e072a-1731-7740-8ede-53e4c68c912a ====================
+10:37:39.510322 [info ]: dbt-fusion 2.0.0-preview.175
+10:37:39.511477 [info ]: Started loading project
+10:37:39.540696 [info ]: Loading ~/.dbt/profiles.yml
+10:37:39.546291 [info ]: Finished loading project [  0.03s]
+10:37:39.547032 [error]: dbt1001: Profile 'HOSPITAL' not found in profiles.yml
+  --> dbt_project.yml:3:10
+10:37:40.381074 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [871ms]
+==================== 2026-05-08T10:37:56.812312Z | 019e072a-5ac7-74d2-86a8-8f856490322a ====================
+10:37:56.812650 [info ]: dbt-fusion 2.0.0-preview.175
+10:37:56.816896 [info ]: Started loading project
+10:37:56.817975 [info ]: Finished loading project [  0.00s]
+10:37:56.818880 [error]: dbt1013: YAML error: could not find expected ':' at line 5 column 1, while scanning a simple key at line 3 column 1
+  --> dbt_project.yml:5:1
+10:37:57.651247 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [838ms]
+==================== 2026-05-08T10:38:51.042704Z | 019e072b-2e9e-76a0-b1d6-9d595a2b8ce6 ====================
+10:38:51.043042 [info ]: dbt-fusion 2.0.0-preview.175
+10:38:51.044148 [info ]: Started loading project
+10:38:51.045166 [info ]: Finished loading project [  0.00s]
+10:38:51.045885 [error]: dbt1013: YAML error: could not find expected ':' at line 4 column 1, while scanning a simple key at line 3 column 1
+  --> dbt_project.yml:4:1
+10:38:51.940391 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [897ms]
+==================== 2026-05-08T10:39:29.844755Z | 019e072b-c62d-7f00-94d3-a35c8ca82294 ====================
+10:39:29.845114 [info ]: dbt-fusion 2.0.0-preview.175
+10:39:29.846350 [info ]: Started loading project
+10:39:29.847312 [info ]: Finished loading project [  0.00s]
+10:39:29.848006 [error]: dbt1013: YAML error: could not find expected ':' at line 5 column 1, while scanning a simple key at line 3 column 1
+  --> dbt_project.yml:5:1
+10:39:30.693901 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [849ms]
+==================== 2026-05-08T10:41:43.237356Z | 019e072d-cf41-7551-b4d6-fd52702ef91f ====================
+10:41:43.237721 [info ]: dbt-fusion 2.0.0-preview.175
+10:41:43.238992 [info ]: Started loading project
+10:41:43.240049 [info ]: Finished loading project [  0.00s]
+10:41:43.240911 [error]: dbt1013: YAML error: could not find expected ':' at line 5 column 1, while scanning a simple key at line 3 column 1
+  --> dbt_project.yml:5:1
+10:41:43.966909 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [729ms]
+==================== 2026-05-08T10:42:01.218826Z | 019e072e-157e-7003-aeca-5bc32e706a76 ====================
+10:42:01.219220 [info ]: dbt-fusion 2.0.0-preview.175
+10:42:01.220477 [info ]: Started loading project
+10:42:01.221996 [info ]: Finished loading project [  0.00s]
+10:42:01.223233 [error]: dbt1013: YAML error: could not find expected ':' at line 5 column 1, while scanning a simple key at line 3 column 1
+  --> dbt_project.yml:5:1
+10:42:01.987774 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [768ms]
+==================== 2026-05-08T10:43:55.535712Z | 019e072f-d40b-7b61-816d-1eb2b2d55659 ====================
+10:43:55.536000 [info ]: dbt-fusion 2.0.0-preview.175
+10:43:55.537069 [info ]: Started loading project
+10:43:55.570446 [info ]: Loading ~/.dbt/profiles.yml
+10:43:55.578121 [info ]: Finished loading project [  0.04s]
+10:43:55.579256 [error]: dbt1001: Profile 'HOSPITAL' not found in profiles.yml
+  --> dbt_project.yml:2:10
+10:43:56.510249 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [974ms]
+==================== 2026-05-08T10:49:35.087056Z | 019e0735-0258-7963-810b-d35c9beb4dd4 ====================
+10:49:35.092873 [info ]: dbt-fusion 2.0.0-preview.175
+10:49:35.102406 [info ]: Started loading project
+10:49:35.147742 [info ]: Loading ~/.dbt/profiles.yml
+10:49:35.158195 [info ]: Finished loading project [  0.06s]
+10:49:35.165448 [error]: dbt1001: Profile 'HOSPITAL' not found in profiles.yml
+  --> dbt_project.yml:2:10
+10:49:35.988766 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [901ms]
+==================== 2026-05-08T10:49:43.441003Z | 019e0735-230d-70b2-9ae8-8b586dff3ac2 ====================
+10:49:43.441253 [info ]: dbt-fusion 2.0.0-preview.175
+10:49:43.442485 [info ]: Started loading project
+10:49:43.449255 [info ]: Loading ~/.dbt/profiles.yml
+10:49:43.451410 [info ]: Finished loading project [  0.01s]
+10:49:43.452308 [error]: dbt1001: Profile 'HOSPITAL' not found in profiles.yml
+  --> dbt_project.yml:2:10
+10:49:44.272871 [info ]: 
+==================== Execution Summary =====================
+Finished 'test' with 1 error [831ms]
+==================== 2026-05-08T11:00:12.730644Z | 019e073e-bd34-7e82-a74e-2cecf012a89b ====================
+11:00:12.730987 [info ]: dbt-fusion 2.0.0-preview.175
+11:00:12.732373 [info ]: Started loading project
+11:00:12.742004 [info ]: Loading ~/.dbt/profiles.yml
+11:00:12.743975 [info ]: Finished loading project [  0.01s]
+11:00:12.746392 [error]: dbt1001: Profile 'HOSPITAL' not found in profiles.yml
+  --> dbt_project.yml:2:10
+11:00:13.625156 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [894ms]
+==================== 2026-05-08T11:00:45.202263Z | 019e073f-3c0d-7880-b712-619b21dab202 ====================
+11:00:45.202654 [info ]: dbt-fusion 2.0.0-preview.175
+11:00:45.204272 [info ]: Started loading project
+11:00:45.205814 [info ]: Finished loading project [  0.00s]
+11:00:45.206760 [error]: dbt1013: YAML error: could not find expected ':' at line 4 column 1, while scanning a simple key at line 2 column 1
+  --> dbt_project.yml:4:1
+11:00:45.936490 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [734ms]
+==================== 2026-05-08T11:01:06.444813Z | 019e073f-8f08-7ea2-b744-3a79f1a708d0 ====================
+11:01:06.445166 [info ]: dbt-fusion 2.0.0-preview.175
+11:01:06.446613 [info ]: Started loading project
+11:01:06.447634 [info ]: Finished loading project [  0.00s]
+11:01:06.448453 [error]: dbt1013: YAML error: could not find expected ':' at line 4 column 1, while scanning a simple key at line 2 column 1
+  --> dbt_project.yml:4:1
+11:01:07.173923 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [729ms]
+==================== 2026-05-08T11:03:03.981016Z | 019e0741-5a27-7b71-b768-d51384be2da7 ====================
+11:03:03.983324 [info ]: dbt-fusion 2.0.0-preview.175
+11:03:03.990469 [info ]: Started loading project
+11:03:04.046612 [info ]: Loading ~/.dbt/profiles.yml
+11:03:04.058561 [info ]: Finished loading project [  0.07s]
+11:03:04.065092 [error]: dbt1001: Profile 'HOSPITAL' not found in profiles.yml
+  --> dbt_project.yml:2:10
+11:03:04.849108 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [868ms]
+==================== 2026-05-08T11:03:38.392088Z | 019e0741-e093-7ea0-945f-7bb78903d8b6 ====================
+11:03:38.392503 [info ]: dbt-fusion 2.0.0-preview.175
+11:03:38.393741 [info ]: Started loading project
+11:03:38.404397 [info ]: Loading ~/.dbt/profiles.yml
+11:03:38.405635 [info ]: Finished loading project [  0.01s]
+11:03:38.406425 [error]: dbt1001: Profile 'HOSPITAL' not found in profiles.yml
+  --> dbt_project.yml:2:10
+11:03:39.165211 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [773ms]
+==================== 2026-05-08T11:04:01.481346Z | 019e0742-3ac4-7d50-8d3d-cafaa43651da ====================
+11:04:01.481788 [info ]: dbt-fusion 2.0.0-preview.175
+11:04:01.483355 [info ]: Started loading project
+11:04:01.484420 [info ]: Finished loading project [  0.00s]
+11:04:01.485340 [error]: dbt1013: YAML error: could not find expected ':' at line 4 column 1, while scanning a simple key at line 2 column 1
+  --> dbt_project.yml:4:1
+11:04:02.252356 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [771ms]
+==================== 2026-05-08T11:04:35.723872Z | 019e0742-c087-7323-964d-c30b80cd2e24 ====================
+11:04:35.724204 [info ]: dbt-fusion 2.0.0-preview.175
+11:04:35.725351 [info ]: Started loading project
+11:04:35.726261 [info ]: Finished loading project [  0.00s]
+11:04:35.726925 [error]: dbt1013: YAML error: could not find expected ':' at line 6 column 1, while scanning a simple key at line 2 column 1
+  --> dbt_project.yml:6:1
+11:04:36.530108 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [806ms]
+==================== 2026-05-08T11:05:17.022360Z | 019e0743-61d8-79f2-9d82-19cb73ffe6ba ====================
+11:05:17.026275 [info ]: dbt-fusion 2.0.0-preview.175
+11:05:17.030265 [info ]: Started loading project
+11:05:17.032114 [info ]: Finished loading project [  0.00s]
+11:05:17.033148 [error]: dbt1013: YAML error: could not find expected ':' at line 6 column 8, while scanning a simple key at line 2 column 1
+  --> dbt_project.yml:6:8
+11:05:17.741652 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [719ms]
+==================== 2026-05-08T11:06:50.283563Z | 019e0744-ce27-7432-8039-bb22ed0e0683 ====================
+11:06:50.286667 [info ]: dbt-fusion 2.0.0-preview.175
+11:06:50.288581 [info ]: Started loading project
+11:06:50.294586 [info ]: Loading ~/.dbt/profiles.yml
+11:06:50.296321 [info ]: Finished loading project [  0.01s]
+11:06:50.297426 [error]: dbt1001: Profile 'HOSPITAL' not found in profiles.yml
+  --> dbt_project.yml:2:10
+11:06:51.107021 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [823ms]
+==================== 2026-05-08T11:07:34.004087Z | 019e0745-78ef-70d3-b6dd-02bd45e261a7 ====================
+11:07:34.004437 [info ]: dbt-fusion 2.0.0-preview.175
+11:07:34.005623 [info ]: Started loading project
+11:07:34.014447 [info ]: Loading ~/.dbt/profiles.yml
+11:07:34.016124 [info ]: Finished loading project [  0.01s]
+11:07:34.017009 [error]: dbt1001: Profile 'HOSPITAL' not found in profiles.yml
+  --> dbt_project.yml:2:10
+11:07:34.777106 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [773ms]
+==================== 2026-05-08T11:07:54.648647Z | 019e0745-c993-71f0-bfec-3ceb8f9b6d18 ====================
+11:07:54.648985 [info ]: dbt-fusion 2.0.0-preview.175
+11:07:54.650755 [info ]: Started loading project
+11:07:54.652563 [info ]: Finished loading project [  0.00s]
+11:07:54.653872 [error]: dbt1013: YAML error: could not find expected ':' at line 3 column 1, while scanning a simple key at line 2 column 1
+  --> dbt_project.yml:3:1
+11:07:55.379003 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [730ms]
+==================== 2026-05-08T11:55:35.310996Z | 019e0771-6fd3-7bf0-a2bb-abf19a9f80f6 ====================
+11:55:35.326609 [info ]: dbt-fusion 2.0.0-preview.175
+11:55:35.339068 [info ]: Started loading project
+11:55:35.381160 [info ]: Finished loading project [  0.04s]
+11:55:35.398575 [error]: dbt1013: YAML error: could not find expected ':' at line 3 column 1, while scanning a simple key at line 2 column 1
+  --> dbt_project.yml:3:1
+11:55:36.264513 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [953ms]
+==================== 2026-05-08T11:55:59.441476Z | 019e0771-ce4b-7110-8c01-b036e824ed35 ====================
+11:55:59.442188 [info ]: dbt-fusion 2.0.0-preview.175
+11:55:59.443685 [info ]: Started loading project
+11:55:59.444689 [info ]: Finished loading project [  0.00s]
+11:55:59.445428 [error]: dbt1013: YAML error: could not find expected ':' at line 4 column 1, while scanning a simple key at line 2 column 1
+  --> dbt_project.yml:4:1
+11:56:00.154095 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [712ms]
+==================== 2026-05-08T12:01:38.031015Z | 019e0776-f8c2-7901-909e-72431f9e4155 ====================
+12:01:38.036444 [info ]: dbt-fusion 2.0.0-preview.175
+12:01:38.114176 [info ]: Started loading project
+12:01:38.249778 [info ]: Loading ~/.dbt/profiles.yml
+12:01:38.258025 [info ]: Finished loading project [  0.14s]
+12:01:38.259064 [error]: dbt1001: Profile 'HOSPITAL' not found in profiles.yml
+  --> dbt_project.yml:2:10
+12:01:39.347313 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [1.3s]
+==================== 2026-05-08T12:02:01.882860Z | 019e0777-5615-7b63-bd87-8af6869cfdab ====================
+12:02:01.883236 [info ]: dbt-fusion 2.0.0-preview.175
+12:02:01.884789 [info ]: Started loading project
+12:02:01.885793 [info ]: Finished loading project [  0.00s]
+12:02:01.886501 [error]: dbt1013: YAML error: could not find expected ':' at line 5 column 1, while scanning a simple key at line 2 column 1
+  --> dbt_project.yml:5:1
+12:02:02.626785 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [743ms]
+==================== 2026-05-08T12:33:16.631195Z | 019e0793-f126-7c11-9951-620eb34ad13e ====================
+12:33:16.637401 [info ]: dbt-fusion 2.0.0-preview.175
+12:33:16.643928 [info ]: Started loading project
+12:33:16.720956 [info ]: Loading ~/.dbt/profiles.yml
+12:33:16.730107 [info ]: Finished loading project [  0.09s]
+12:33:16.732106 [error]: dbt1001: Profile 'HOSPITAL' not found in profiles.yml
+  --> dbt_project.yml:2:10
+12:33:17.448738 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [817ms]
+==================== 2026-05-08T12:33:25.683865Z | 019e0794-14af-7270-8958-4fa2fb4d2f55 ====================
+12:33:25.684148 [info ]: dbt-fusion 2.0.0-preview.175
+12:33:25.685424 [info ]: Started loading project
+12:33:25.692096 [info ]: Loading ~/.dbt/profiles.yml
+12:33:25.694140 [info ]: Finished loading project [  0.01s]
+12:33:25.695195 [error]: dbt1001: Profile 'HOSPITAL' not found in profiles.yml
+  --> dbt_project.yml:2:10
+12:33:26.389895 [info ]: 
+==================== Execution Summary =====================
+Finished 'run' with 1 error [706ms]
+==================== 2026-05-08T12:36:02.527508Z | 019e0796-7958-7aa2-affb-e7da661e5bfa ====================
+12:36:02.527872 [info ]: dbt-fusion 2.0.0-preview.175
+12:36:02.529405 [info ]: Started loading project
+12:36:02.569904 [info ]: Loading ~/.dbt/profiles.yml
+12:36:02.571415 [info ]: Finished loading project [  0.04s]
+12:36:02.572163 [error]: dbt1001: Profile 'HOSPITAL' not found in profiles.yml
+  --> dbt_project.yml:2:10
+12:36:03.503595 [info ]: 
+==================== Execution Summary =====================
+Finished 'run' with 1 error [976ms]
+==================== 2026-05-08T12:43:21.190335Z | 019e079d-2adf-7f80-8797-6220f02bd059 ====================
+12:43:21.191200 [info ]: dbt-fusion 2.0.0-preview.175
+12:43:21.192455 [info ]: Started loading project
+12:43:21.200388 [info ]: Loading ~/.dbt/profiles.yml
+12:43:21.202138 [info ]: Finished loading project [  0.01s]
+12:43:21.203088 [error]: dbt1001: Profile 'HOSPITAL' not found in profiles.yml
+  --> dbt_project.yml:5:10
+12:43:21.899236 [info ]: 
+==================== Execution Summary =====================
+Finished 'run' with 1 error [708ms]
+==================== 2026-05-08T12:43:44.149560Z | 019e079d-8490-7100-bddb-7dd6e13c8cb4 ====================
+12:43:44.149906 [info ]: dbt-fusion 2.0.0-preview.175
+12:43:44.152366 [info ]: Started loading project
+12:43:44.153497 [info ]: Finished loading project [  0.00s]
+12:43:44.154423 [error]: dbt1013: YAML error: could not find expected ':' at line 7 column 1, while scanning a simple key at line 5 column 1
+  --> dbt_project.yml:7:1
+12:43:44.828901 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [679ms]
+==================== 2026-05-08T12:54:56.708039Z | 019e07a7-c7bf-7be3-9bae-41dd77ace618 ====================
+12:54:56.708462 [info ]: dbt-fusion 2.0.0-preview.175
+12:54:56.709628 [info ]: Started loading project
+12:54:56.710764 [info ]: Finished loading project [  0.00s]
+12:54:56.711803 [error]: dbt1013: YAML error: could not find expected ':' at line 7 column 1, while scanning a simple key at line 5 column 1
+  --> dbt_project.yml:7:1
+12:54:57.412153 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [704ms]
+==================== 2026-05-08T13:05:50.039624Z | 019e07b1-bfd2-7762-86a4-aa8c91f97054 ====================
+13:05:50.040283 [info ]: dbt-fusion 2.0.0-preview.175
+13:05:50.041766 [info ]: Started loading project
+13:05:50.049225 [info ]: Loading ~/.dbt/profiles.yml
+13:05:50.050905 [info ]: Finished loading project [  0.01s]
+13:05:50.051930 [error]: dbt1001: Profile 'hospital_' not found in profiles.yml
+  --> dbt_project.yml:5:10
+13:05:50.722132 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [682ms]
+==================== 2026-05-08T13:07:22.517275Z | 019e07b3-2910-78a2-8edf-3be2f67b4c3c ====================
+13:07:22.517656 [info ]: dbt-fusion 2.0.0-preview.175
+13:07:22.518965 [info ]: Started loading project
+13:07:22.519829 [info ]: Finished loading project [  0.00s]
+13:07:22.520486 [error]: dbt1013: YAML error: could not find expected ':' at line 7 column 1, while scanning a simple key at line 5 column 1
+  --> dbt_project.yml:7:1
+13:07:23.236539 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' with 1 error [719ms]
